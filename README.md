@@ -13,7 +13,7 @@ PATENT NOTICE
 
 libaeroambe is an mini-m decoder library.
 
-# Contributors
+# Credits
 
 This project would not have been possible without some talented individuals contributing their time.
 
