@@ -1,4 +1,4 @@
-#Legal
+# Legal
 
 PATENT NOTICE
 
@@ -9,11 +9,11 @@ PATENT NOTICE
     Readers are strongly advised to check for any patent restrictions or
     licencing requirements before compiling or using this source code.
 
-#What is it?
+# What is it?
 
 libaeroambe is an mini-m decoder library.
 
-#How to compile it?
+# How to compile it?
 
 You will need [CMake] to compile what's in the `mbelib-master` directory and [Qt] for what's in the `libaeroambe` directory.
 

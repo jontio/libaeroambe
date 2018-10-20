@@ -43,7 +43,8 @@ win32: LIBS += -L$$MBELIB_PATH/build/ -llibmbe.dll
 DISTFILES += \
     LICENSE \
     README.md \
-    ../mbelib-master/COPYRIGHT
+    ../mbelib-master/COPYRIGHT \
+    ../README.md
     ../mbelib-master/README.md
 
 
