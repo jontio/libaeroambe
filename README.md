@@ -23,7 +23,7 @@ Many thanks go out to Sylvain Munaut for his help, support, and expertise in rev
 
 ***The others***:
 
-I'd also like to send many thanks to those who prefer not to be mentioned. I'm very impressed with the results.
+I'd also like to send many thanks to those who prefer not to be mentioned. I'm very impressed with what you have done.
 
 # How to compile it?
 
