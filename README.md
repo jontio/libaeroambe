@@ -21,9 +21,13 @@ This project would not have been possible without some talented individuals cont
 
 Many thanks go out to Sylvain Munaut for his help, support, and expertise in reverse engineering codecs.
 
+***mbelib Author***:
+
+Many thanks go out to "mbelib Author" who code was invaluable.
+
 ***The others***:
 
-I'd also like to send many thanks to those who prefer not to be mentioned. I'm very impressed with what you have done.
+I'd also like to send many thanks to those who prefer not to be mentioned. I'm very impressed with what you have accomplished.
 
 # How to compile it?
 
