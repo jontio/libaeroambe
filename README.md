@@ -17,9 +17,13 @@ libaeroambe is an mini-m decoder library.
 
 This project would not have been possible without some talented individuals contributing their time.
 
-Many thanks goes out to Sylvain Munaut for his help, support, and expertise in reverse engineering codecs.
+***Sylvain Munaut***:
 
-I'd also like to send many thanks to those who prefer not to be mentioned.
+Many thanks go out to Sylvain Munaut for his help, support, and expertise in reverse engineering codecs.
+
+***The others***:
+
+I'd also like to send many thanks to those who prefer not to be mentioned. I'm very impressed with the results.
 
 # How to compile it?
 
