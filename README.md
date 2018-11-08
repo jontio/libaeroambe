@@ -48,8 +48,11 @@ Once that is done you need to use Qt to compile the shared library. This too wil
 
 You may need to alter some of the paths in the pro file to be able to compile successfully.
 
+Have a look at [the wiki] if you're wanting to compile Window binaries.
+
 Jonti
 
+[the wiki]: https://github.com/jontio/libaeroambe/wiki
 [Qt]: https://www.qt.io/download
 [CMake]: https://cmake.org/
 [MSYS2]: https://www.msys2.org/
