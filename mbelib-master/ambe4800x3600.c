@@ -109,7 +109,8 @@ int
 mbe_eccAmbe4800x3600Data (char ambe_fr[6][24], char *ambe_d)
 {
 
-    int j, errs;
+    int j;
+    int errs=0;
     char *ambe, hin[15], hout[15];
     ambe = ambe_d;
 
