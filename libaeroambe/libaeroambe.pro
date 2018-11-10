@@ -39,6 +39,7 @@ HEADERS  += \
     aeroambe.h
 
 win32: LIBS += -L$$MBELIB_PATH/build/ -llibmbe.dll
+linux: LIBS += -lmbe
 
 DISTFILES += \
     LICENSE \
@@ -46,5 +47,26 @@ DISTFILES += \
     ../mbelib-master/COPYRIGHT \
     ../README.md
     ../mbelib-master/README.md
+    
+#define where we store everything so when using the command line we don't make the main directory messy.
+CONFIG(debug, debug|release) {
+    DESTDIR = $$PWD/debug
+    OBJECTS_DIR = $$PWD/tmp/debug/obj
+    MOC_DIR = $$PWD/tmp/debug/moc
+} else {
+    DESTDIR = $$PWD/release
+    OBJECTS_DIR = $$PWD/tmp/release/obj
+    MOC_DIR = $$PWD/tmp/release/moc
+}
+
+#install headers
+headersDataFiles.path = $$[QT_INSTALL_HEADERS]/libaeroambe/
+headersDataFiles.files = $$PWD/*.h
+INSTALLS += headersDataFiles
+
+#install library
+target.path=$$[QT_INSTALL_LIBS]
+INSTALLS += target
+
 
 
